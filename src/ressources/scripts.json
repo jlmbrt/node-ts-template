@@ -1,6 +1,6 @@
 {
-    "build": "ttsc --incremental",
-    "build:full": "rimraf build/* && npm run build",
+    "build": "ttsc",
+    "build:full": "rimraf build/* && npm run build -- --incremental false",
     "prod": "npm run build && node ./build",
     "dev": "ts-node-dev --transpile-only -r tsconfig-paths/register ./src",
     "dev:watch": "ts-node-dev --transpile-only --respawn --rs --clear -r tsconfig-paths/register ./src",

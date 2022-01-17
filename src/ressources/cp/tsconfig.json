@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "incremental": false,
+        "incremental": true,
         "target": "ES2016",
         "module": "commonjs",
 
