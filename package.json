@@ -4,7 +4,7 @@
     "description": "",
     "main": "build/index.js",
     "bin": {
-        "ts-template": "./bin/ts-template.js"
+        "node-ts-template": "./bin/node-ts-template.js"
     },
     "files": [
         "build",
