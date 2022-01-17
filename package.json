@@ -6,6 +6,10 @@
     "bin": {
         "ts-template": "./bin/ts-template.js"
     },
+    "files": [
+        "build",
+        "bin"
+    ],
     "preferGlobal": true,
     "scripts": {
         "build:reset": "rimraf build",
