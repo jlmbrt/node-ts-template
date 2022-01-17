@@ -1,0 +1,24 @@
+{
+    "name": "ts-template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build/index.js",
+    "bin": {
+        "ts-template": "./bin/ts-template.js"
+    },
+    "preferGlobal": true,
+    "scripts": {
+        "build:reset": "rimraf build",
+        "build:compile": "tsc",
+        "build:post": "mkdir -p build/ressources && cp -r src/ressources/ build/ressources/",
+        "build": "npm run build:reset && npm run build:compile && npm run build:post"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^17.0.8",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.5.4"
+    }
+}

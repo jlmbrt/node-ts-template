@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "incremental": false,
+        "target": "ES2016",
+        "module": "CommonJS",
+        "allowJs": true,
+        "outDir": "./build",
+        "rootDir": "./src",
+        "resolveJsonModule": true,
+        "strict": true,
+
+        "esModuleInterop": true,
+
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+
+        "declaration": false,
+        "declarationMap": false,
+        "sourceMap": false,
+        "inlineSourceMap": true,
+        "removeComments": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["src/ressources", "src/scripts.json"]
+}
