@@ -15,7 +15,8 @@
         "build:reset": "rimraf build",
         "build:compile": "tsc",
         "build:post": "mkdir -p build/ressources && cp -r src/ressources/ build/ressources/",
-        "build": "npm run build:reset && npm run build:compile && npm run build:post"
+        "build": "npm run build:reset && npm run build:compile && npm run build:post",
+        "install": "npm pack && npm i -g ."
     },
     "keywords": [],
     "author": "",
